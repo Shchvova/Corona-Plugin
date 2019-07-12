@@ -16,14 +16,9 @@ settings = {
   },
         
     plugins = {
-
         -- For production, Vungle SDK is obtained from Corona server
         ["plugin.vungle"] = {
             publisherId = "com.vungle"
-        },
-
-        ["plugin.google.play.services"] = {
-            publisherId = "com.coronalabs"
         },
     }, 
 }
